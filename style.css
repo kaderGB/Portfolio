@@ -665,6 +665,128 @@ a{
    navbar{
       background: #ffc107;
    }
+   .header{
+      display: block;
+      font-size: 12px;
+   }
+
+
+}
+
+@media all and (max-width: 700px){
+   .headtext{
+      text-align: center;
+      font-size: 15px;
+      
+   }
+   .head-img{
+      width: 200px;
+      height: 200px;
+      margin-top: 15px;
+      margin-left: 25%;
+   }
+
+   .button{
+      display: flex;
+      margin-inline:150px;
+      justify-content: space-between;
+   }
+
+   .btn1{
+      width: 250px;
+   }
+
+   .btn2{
+      width: 220px;
+   }
+
+   .icon{
+      margin-inline: auto;
+   }
+
+   
+
+
+   navbar{
+      background: #ffc107;
+   }
+   .header{
+      display: block;
+      font-size: 12px;
+   }
+
+   .about{
+      display: block;
+      margin-inline: auto;
+      height: fit-content;
+     
+
+   }
+
+   .about-img{
+     margin-right: 60%; 
+   }
+
+   .para{
+      display: block; 
+    }
+
+    .about-p1{
+      font-size: 10px; 
+      text-align: center;
+      overflow-wrap: break-word;
+    }
+
+    .text2-exper{
+      font-size: 70px; 
+      width: auto;
+    }
+    .svg1{
+      width: 100px;
+      height: 100px;
+      margin-inline: auto;
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    .svg{
+      width: 200px;
+      height: 200px;
+    }
+    .expert{
+      display: block;
+    }
+
+    .exper{
+      height: fit-content;
+    }
+
+    .cards{
+      margin-inline: auto;
+      display: block;
+    }
+    .size{
+      margin-bottom: 25px;
+    }
+
+    .projects{
+      height: fit-content;
+      padding-bottom: 15px;
+    }
+
+    .collaborate{
+      height: fit-content;
+      padding-bottom: 15px;
+    }
+
+    .contact{
+      height: fit-content;
+      padding-bottom: 15px;
+    }
+
+    .text2-contact{
+      font-size: 70px;
+    }
 
 
 }
