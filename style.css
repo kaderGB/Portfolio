@@ -4,20 +4,26 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
+    
 
 text-decoration: none;
 }
 
-body{
+html,body{
     justify-content: center;
     align-items: center;
     font-family: 'Exo', sans-serif;
     background: #f3f2f2;
-
+    max-width: min-content;
+    margin-inline: auto;
+    overflow-x: hidden;
 }
+
+
 
 .navbar{
     font-size: 25px;
+    position: sticky;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -25,9 +31,27 @@ body{
     
 }
 
+//.darkmode{
+ //  width: 50px;
+ //  height: 20px;
+ //  border: 1px solid;
+ //  border-radius: 20px;
+ //  position: relative;
+   
+//}
+//.mode{
+ //  width: 20px;
+ //  height:20 px;
+ //  background: #38393a;
+//   border: 1px solid;
+  // position: absolute;
+   //
+//}
+
 .text1{
     font-size: 30px;
-    margin-right: 400px;
+   margin-right: 400px;
+   color: #8307ff;
 }
 
 .navitems{
@@ -44,14 +68,14 @@ body{
    height: 50px;
    width: 200px;
    text-align: center;
-  
-  
-  
+   
 }
 
 
+
+
 .head-img{
-    height: 340px;
+    height: 350px;
     width: 350px;
     border-radius: 200px;
     filter: grayscale(100%);
@@ -60,7 +84,7 @@ body{
 }
 
 .head-img:hover{
-   transform: scale(1.1);
+   transform: scale(1);
    filter: grayscale(0%);
 }
 
@@ -99,7 +123,7 @@ body{
 .text-c{
     font-size: 30px;
     text-align: center;
-    color: #45474B;
+    color: #8307ff;
     margin-bottom: 17px;
 }
 
@@ -141,16 +165,20 @@ body{
     margin-left: 35px;
 }
 
+
+
 a{
     color: black;
 }
 
 .about{
-    margin-top: 0px;
+    margin-top: 470px;
     margin-bottom: 0px;
-    padding-top: 0px;
+    padding-top: 50px;
    width: 100%;
-   height: 580px;
+   height: 790px;
+   background: #e6e6e7;
+  
   
    
 }
@@ -165,58 +193,77 @@ a{
  }
 
  .about .about2{
-   font-size: 90px;
+   font-size: 70px;
    color: #ffc107;
  }
 
- .img-about{
-    width: 295px;
-    height: 370px;
-    border-radius: 20px;
- }
-
-
- .box{
-    display: flex;
-    gap: 50px;
-    justify-content: center;
-    align-items: center;
-    margin-top: 70px;
+ .about-img{
+    width: 140px;
+    height: 180px;
+    border-radius: 180px;
+    margin-top: 20px;
+    margin-bottom: 20px;
    
  }
 
 
- .box1{
-    border: 1px solid;
-    width: 350px;
-    height: 220px;
-    border-radius: 20px;
-   justify-content: center;
+ .aboutsub{
+   display: block;
+   margin-inline: auto;
+   width: 900px;
+   height: 400px;
    align-items: center;
-   padding-top: 40px;
-   background: #eeecec;
+   justify-content: center;
+   text-align: center;
+   
  }
 
- .box2{
-    border: 1px solid;
-    width: 350px;
-    height: 220px;
-    border-radius: 20px;
-   justify-content: center;
-   align-items: center;
-   padding-top: 40px;
-   background: #eeecec;
+ .para{
+   display: inline-block;
  }
 
- .p-about{
-    display: block;
-   margin-left: 50px;
-   margin-right: 50px;
-   padding-top: 40px;
-    justify-content: center;
-    align-items: center;
-    
+ .about-p1{
+   font-size: 15px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   text-align: justify;
  }
+
+ .about-p2{
+   margin-top: 0px;
+   margin-bottom: 20px;
+   text-align: justify;
+   font-size: 15px;
+ }
+
+ .about-p3{
+   font-size: 15px;
+   margin-top: 0px;
+   margin-bottom: 100px;
+   text-align: justify;
+ }
+
+ .junior{
+
+   font-size: 20px;
+   color: #8307ff;
+   font-weight: 350;
+ }
+
+ 
+
+
+
+ .about-h1{
+   color: #8307ff;
+   font-size: 15px;
+   display: flex;
+   text-align: center;
+   margin-top: 60px; 
+ }
+ 
+
+
 
 
  .svg{
@@ -249,22 +296,42 @@ a{
  .exper{
     width: 100%;
     height: 800px;
-    background: white;
+    background: #8307ff;
+    //border-radius: 20px;
     
    
+ }
+
+ .expert{
+   display: flex;
+   gap: 50px;
+   justify-content: center;
+ }
+
+ .exp-title{
+   font-size: 30px;
+   margin-top: 45px;
+   margin-bottom: 45px;
+   text-align: center;
+   color: #fff;
+ }
+
+ svg{
+   color: #fff;
  }
 
  .text1-exper{
     text-align: center;
     font-size: 25px;
     padding-top:60px ;
+    color: #fff;
    
  }
 
  .text2-exper{
     text-align: center;
     font-size: 90px;
-    color: #ffc107;
+    color: #fff;
    
  }
 
@@ -276,6 +343,7 @@ a{
     font-size: 12px;
     margin-top: 35px;
     margin-bottom: 50px;
+    color: #fff;
     
  }
 
@@ -301,10 +369,11 @@ a{
  }
 
 
- .title-content{
+ .content .title-content{
     
     padding-top: 20px;
-    font-size: 20px;  
+    font-size: 20px; 
+    display: block; 
  }
 
  .title-content:hover{
@@ -317,7 +386,9 @@ a{
  .projects{
     width: 100%;
     height: 1000px;
+    margin-bottom: 200px;
     background: #f1f0f0;
+    margin-top: 70px;
     
    
  }
