@@ -673,7 +673,7 @@ a{
 
 }
 
-@media all and (max-width: 700px){
+@media all and (max-width: 600px){
    .headtext{
       text-align: center;
       font-size: 15px;
@@ -707,8 +707,19 @@ a{
    
 
 
-   navbar{
+   .navbar{
       background: #ffc107;
+      display: block;
+      margin-inline: auto;
+   }
+   .navitems{
+      text-align: center;
+      display: block;
+   }
+
+   .glasss{
+      align-items: center;
+      justify-content: center;
    }
    .header{
       display: block;
@@ -789,8 +800,23 @@ a{
       font-size: 70px;
     }
 
+    .humburger{
+      display: block;
+    }
+
 
 }
+
+.bar{
+   display: block;
+   width: 25px;
+   height: 3px;
+   margin: 5px 0;
+   transition: all 0.3s ease;
+   background-color: black;
+}
+
+
  
 
 
