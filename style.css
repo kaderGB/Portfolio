@@ -711,16 +711,41 @@ a{
       background: #ffc107;
       display: block;
       margin-inline: auto;
+      padding-bottom: 10px;
+      top: 0;
    }
    .navitems{
       text-align: center;
-      display: block;
+      display: flex;
+      font-size: 15px;
+      justify-content: center;
+      align-items: center;
+     
    }
 
+   .para{
+     
+      width: 400px;
+     
+      
+    }
+
+    .about-p1{
+      overflow: auto;
+      width: fit-content;
+      
+    }
+
+   
+
    .glasss{
-      align-items: center;
-      justify-content: center;
+     display: none;
    }
+
+   .text1{
+      display: none;
+    }
+
    .header{
       display: block;
       font-size: 12px;
