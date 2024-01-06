@@ -4,3 +4,9 @@ $(document).ready(function(){
     });
 });
 
+document.querySelector('#About').addEventListener('click', function() {
+    window.scrollTo({
+      x: 0,
+      y: document.getElementById('about').offsetTop
+    });
+  });

@@ -30,6 +30,7 @@ html,body{
     align-items: center;
     justify-content: center;
     padding-top:50px ;
+    top: 0;
     
 }
 
@@ -63,7 +64,7 @@ html,body{
 }
 
 .item:hover{
-    border-bottom: 3px solid #ffc107; 
+    border-bottom: 3px solid #8307ff; 
 }
 
 #sayhello{
@@ -112,6 +113,7 @@ html,body{
     margin-bottom: -100px;
     width:calc(800px + 350px);
     margin-inline: auto;
+    
  }
 
 .text-a{
@@ -801,6 +803,10 @@ a{
    .item a{
       color: #fff;
    }
+
+   .item:hover{
+      border-bottom: 3px solid #fff; 
+  }
 
    .para{
       width: 400px;
