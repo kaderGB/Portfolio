@@ -455,6 +455,7 @@ a{
 
 .cards{
     display: flex;
+    background: #8307ff;
     gap: 30px;
     //margin-top: 40px;
     margin-left: 50px;
